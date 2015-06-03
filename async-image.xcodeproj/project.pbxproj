@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		B8B7A0321B1F4F20004A639D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B7A0311B1F4F20004A639D /* main.m */; };
 		B8B7A0351B1F4F20004A639D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B7A0341B1F4F20004A639D /* AppDelegate.m */; };
-		B8B7A0381B1F4F20004A639D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B7A0371B1F4F20004A639D /* ViewController.m */; };
 		B8B7A03B1B1F4F20004A639D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8B7A0391B1F4F20004A639D /* Main.storyboard */; };
 		B8B7A03D1B1F4F20004A639D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8B7A03C1B1F4F20004A639D /* Images.xcassets */; };
 		B8B7A0401B1F4F20004A639D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8B7A03E1B1F4F20004A639D /* LaunchScreen.xib */; };
 		B8B7A04C1B1F4F21004A639D /* async_imageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B7A04B1B1F4F21004A639D /* async_imageTests.m */; };
+		B8B7A0591B1F4F7A004A639D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B7A0561B1F4F7A004A639D /* SecondViewController.m */; };
+		B8B7A05A1B1F4F7A004A639D /* TblViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B7A0581B1F4F7A004A639D /* TblViewController.m */; };
+		B8B7A05D1B1F502B004A639D /* TblCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B7A05C1B1F502B004A639D /* TblCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +34,18 @@
 		B8B7A0311B1F4F20004A639D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B8B7A0331B1F4F20004A639D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B8B7A0341B1F4F20004A639D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B8B7A0361B1F4F20004A639D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B8B7A0371B1F4F20004A639D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B8B7A03A1B1F4F20004A639D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B8B7A03C1B1F4F20004A639D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B8B7A03F1B1F4F20004A639D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B8B7A0451B1F4F20004A639D /* async-imageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "async-imageTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8B7A04A1B1F4F21004A639D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8B7A04B1B1F4F21004A639D /* async_imageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = async_imageTests.m; sourceTree = "<group>"; };
+		B8B7A0551B1F4F7A004A639D /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondViewController.h; path = ../SecondViewController.h; sourceTree = "<group>"; };
+		B8B7A0561B1F4F7A004A639D /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondViewController.m; path = ../SecondViewController.m; sourceTree = "<group>"; };
+		B8B7A0571B1F4F7A004A639D /* TblViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TblViewController.h; path = ../TblViewController.h; sourceTree = "<group>"; };
+		B8B7A0581B1F4F7A004A639D /* TblViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TblViewController.m; path = ../TblViewController.m; sourceTree = "<group>"; };
+		B8B7A05B1B1F500E004A639D /* TblCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblCell.h; sourceTree = "<group>"; };
+		B8B7A05C1B1F502B004A639D /* TblCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +87,14 @@
 		B8B7A02E1B1F4F20004A639D /* async-image */ = {
 			isa = PBXGroup;
 			children = (
+				B8B7A05C1B1F502B004A639D /* TblCell.m */,
+				B8B7A05B1B1F500E004A639D /* TblCell.h */,
+				B8B7A0551B1F4F7A004A639D /* SecondViewController.h */,
+				B8B7A0561B1F4F7A004A639D /* SecondViewController.m */,
+				B8B7A0571B1F4F7A004A639D /* TblViewController.h */,
+				B8B7A0581B1F4F7A004A639D /* TblViewController.m */,
 				B8B7A0331B1F4F20004A639D /* AppDelegate.h */,
 				B8B7A0341B1F4F20004A639D /* AppDelegate.m */,
-				B8B7A0361B1F4F20004A639D /* ViewController.h */,
-				B8B7A0371B1F4F20004A639D /* ViewController.m */,
 				B8B7A0391B1F4F20004A639D /* Main.storyboard */,
 				B8B7A03C1B1F4F20004A639D /* Images.xcassets */,
 				B8B7A03E1B1F4F20004A639D /* LaunchScreen.xib */,
@@ -219,8 +229,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8B7A0381B1F4F20004A639D /* ViewController.m in Sources */,
+				B8B7A05D1B1F502B004A639D /* TblCell.m in Sources */,
+				B8B7A0591B1F4F7A004A639D /* SecondViewController.m in Sources */,
 				B8B7A0351B1F4F20004A639D /* AppDelegate.m in Sources */,
+				B8B7A05A1B1F4F7A004A639D /* TblViewController.m in Sources */,
 				B8B7A0321B1F4F20004A639D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +424,7 @@
 				B8B7A0511B1F4F21004A639D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8B7A0521B1F4F21004A639D /* Build configuration list for PBXNativeTarget "async-imageTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +433,7 @@
 				B8B7A0541B1F4F21004A639D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
